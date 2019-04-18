@@ -1,0 +1,170 @@
+Reading from align.nxs 
+Reading file align.nxs as NEXUS 
+
+
+FASTA file "~/EEOB563_labs/Final/alignment.fa"
+  (imported Tue Apr  9 21:18:48 2019)
+ 
+Matrix (395699x41, 16 states). Memory required for data: 308.71 Mbytes 
+Closing NEXUS file 
+Space for 100000 trees in memory 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+10    SPR        1 of 1      ------      1385039      0:02:41    114,100       
+Completed 10 random addition sequences.
+Total rearrangements examined: 114,100. 
+Best score hit 10 times out of 10.
+Best score (TBR): 1385039.  1 trees retained. 
+Start swapping from 1 trees (score 1385039)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR        0 of 1      ------      1385039      0:00:12    18,151        
+Completed TBR branch-swapping.
+Total rearrangements examined: 18,151. 
+Best score (TBR): 1385039.  1 trees found. 
+Expecting tree number 
+tsave * tnt1.tre  
+^
+ 
+Tree file: tnt11.tre 
+PISH: command "tree" not recognized 
+tree_filename.tre  
+   ^
+ 
+Expecting tree number 
+all  
+^
+ 
+No tree 1 
+1  
+ ^
+ 
+ 
+Tree 0: 
+   ,-- Erenna_richardi
+   |     ,-- Physonect_sp
+   |  ,----- Marrus_claudanielis
+|--|  |     ,-- Thermopalia_sp
+   |  |  ,----- Stephalia_dilata
+   |  |  |        ,-- Resomia_ornicephala
+   `--|  |     ,----- Frillagalma_vityazi
+      |  |     |     ,-- Forskalia_asymmetrica
+      |  |  ,--|  ,----- Cordagalma_sp
+      |  |  |  |  |     ,-- Physophora_gilmeri
+      `--|  |  `--|  ,----- Lychnagalma_utricularia
+         |  |     `--|  ,-- Nanomia_bijuga
+         |  |        `--|  ,-- Halistemma_rubrum
+         |  |           `--|  ,-- Agalma_elegans
+         |  |              `----- Athorybia_rosacea
+         |  |        ,-- Hippopodius_hippopus
+         `--|     ,--|  ,-- Prayidae_D27D2
+            |     |  `----- Prayidae_D27SS7
+            |  ,--|     ,-- Chuniphyes_multidentata
+            |  |  |  ,----- Kephyes_ovata
+            |  |  `--|  ,-- Lilyopsis_fluoracantha
+            |  |     `--|  ,-- Chelophyes_appendiculata
+            |  |        `--|  ,-- Diphyes_dispar
+            |  |           `----- Abylopsis_tetragona
+            `--|     ,-- Rudjakovia_sp
+               |  ,--|  ,-- Bargmannia_lata
+               |  |  `--|  ,-- Bargmannia_elongata
+               |  |     `----- Bargmannia_amoena
+               |  |     ,-- Apolemia_sp
+               `--|  ,--|  ,-- Apolemia_lanosa
+                  |  |  `----- Apolemia_rubriversa
+                  |  |     ,-- Rhizophysa_filiformis
+                  `--|  ,----- Physalia_physalis
+                     |  |     ,-- Podocoryna_carnea
+                     `--|  ,----- Hydractinia_symbiolongicarpus
+                        |  |  ,-- Clytia_hemisphaerica
+                        `--|  |     ,-- Ectopleura_larynx
+                           `--|  ,----- Hydra_magnipapillata
+                              `--|  ,-- Alatina_alata
+                                 `--|  ,-- Aiptasia_pallida
+                                    `----- Nematostella_vectensis
+ 
+Can't open new file: Tree file tnt11.tre open 
+tsave * tnt1.tre;  
+     ^
+ 
+Can't open new file: Tree file tnt11.tre open 
+tsave * tnt111.tre;  
+     ^
+ 
+Can't open new file: Tree file tnt11.tre open 
+tsave * tree_name.tre  
+     ^
+ 
+Saved trees (Nexus format) to file consensus_tree.tre 
+No command! 
+export - consensus_tree.tre ; 'export > consensus_tree_tnt.tre'  
+                             ^
+ 
+Saved trees (Nexus format) to file boots.tre 
+ 
+Tree 0: 
+   ,-- Erenna_richardi
+   |     ,-- Physonect_sp
+   |  ,----- Marrus_claudanielis
+|--|  |     ,-- Thermopalia_sp
+   |  |  ,----- Stephalia_dilata
+   |  |  |        ,-- Resomia_ornicephala
+   `--|  |     ,----- Frillagalma_vityazi
+      |  |     |     ,-- Forskalia_asymmetrica
+      |  |  ,--|  ,----- Cordagalma_sp
+      |  |  |  |  |     ,-- Physophora_gilmeri
+      `--|  |  `--|  ,----- Lychnagalma_utricularia
+         |  |     `--|  ,-- Nanomia_bijuga
+         |  |        `--|  ,-- Halistemma_rubrum
+         |  |           `--|  ,-- Agalma_elegans
+         |  |              `----- Athorybia_rosacea
+         |  |        ,-- Hippopodius_hippopus
+         `--|     ,--|  ,-- Prayidae_D27D2
+            |     |  `----- Prayidae_D27SS7
+            |  ,--|     ,-- Chuniphyes_multidentata
+            |  |  |  ,----- Kephyes_ovata
+            |  |  `--|  ,-- Lilyopsis_fluoracantha
+            |  |     `--|  ,-- Chelophyes_appendiculata
+            |  |        `--|  ,-- Diphyes_dispar
+            |  |           `----- Abylopsis_tetragona
+            `--|     ,-- Rudjakovia_sp
+               |  ,--|  ,-- Bargmannia_lata
+               |  |  `--|  ,-- Bargmannia_elongata
+               |  |     `----- Bargmannia_amoena
+               |  |     ,-- Apolemia_sp
+               `--|  ,--|  ,-- Apolemia_lanosa
+                  |  |  `----- Apolemia_rubriversa
+                  |  |     ,-- Rhizophysa_filiformis
+                  `--|  ,----- Physalia_physalis
+                     |  |     ,-- Podocoryna_carnea
+                     `--|  ,----- Hydractinia_symbiolongicarpus
+                        |  |  ,-- Clytia_hemisphaerica
+                        `--|  |     ,-- Ectopleura_larynx
+                           `--|  ,----- Hydra_magnipapillata
+                              `--|  ,-- Alatina_alata
+                                 `--|  ,-- Aiptasia_pallida
+                                    `----- Nematostella_vectensis
+ 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+0     SECT       1           ------      1385039      0:00:37    27,557        
+ 
+Search was interrupted... 
+Total rearrangements examined: 27,557. 
+Target score (none) hit 0 times.
+Best score: 1385039.  1 trees retained. 
+bbreak  - out of ram (change "hold" and/or "mxram") 
+bbreak = tbr ;  
+      ^
+ 
+ 
+WARNING: 
+Re-setting RAM will discard current data (and trees) 
+ 
+TNT - max. ram = 2000.00 Mbytes 
+No ram used yet 
+No trees to swap 
+bbreak = tbr ;  
+            ^
+ 
+PISH: command "ls" not recognized 
+ls  
+ ^
+ 

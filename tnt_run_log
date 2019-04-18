@@ -1,0 +1,45 @@
+Log file: tnt_run_log 
+Taxon names is ON 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+20    SPR        1 of 1      ------      1385039      0:03:53    215,277       
+Completed 20 random addition sequences.
+Total rearrangements examined: 215,277. 
+Best score hit 20 times out of 20.
+Best score (TBR): 1385039.  1 trees retained. 
+Start swapping from 1 trees (score 1385039)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR        0 of 1      ------      1385039      0:00:09    18,151        
+Completed TBR branch-swapping.
+Total rearrangements examined: 18,151. 
+Best score (TBR): 1385039.  1 trees found. 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 1 trees (0 taxa excluded) calculated, as tree 1 
+Selecting tree(s) 1,  
+1 trees selected 
+Copied legends: "Tree 0. min. branch lengths" 
+ 
+WARNING: 
+File "consensus_tree.tre" already exists.  It will be overwritten. 
+ 
+Saved trees (Nexus format) to file consensus_tree.tre 
+ 
+WARNING: 
+Existing tree-tags will be erased 
+ 
+Collapsing trees with TBR 
+mult  - out of ram (change "hold" and/or "mxram") 
+Error reading search commands 
+mult5=ho5 tb nok norat;  
+   ^
+ 
+Copied legends: "GC values, 10 replicates, cut=0 (tree 0) - Symmetric Resampling (P=33)" 
+Average group support: 97.4 
+ 
+1 trees in memory 
+ 
+WARNING: 
+File "boots.tre" already exists.  It will be overwritten. 
+ 
+Saved trees (Nexus format) to file boots.tre 

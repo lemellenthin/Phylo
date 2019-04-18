@@ -1,0 +1,70 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Wed Apr 17 19:34:51 2019]
+[!
+>Data file = alignment.nxs
+>Heuristic search settings:
+>  Optimality criterion = distance (minimum evolution)
+>    Negative branch lengths allowed, but set to zero for tree-score calculation
+>    Distance measure = Jukes-Cantor
+>    All characters have equal weight
+>  Starting tree(s) obtained via neighbor-joining
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 100
+>  Zero-length branches not collapsed
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Heuristic search completed
+>  Total number of rearrangements tried = 13514
+>  Score of best tree(s) found = 4.80482
+>  Number of trees retained = 1
+>  Time used = 0.17 sec (CPU time = 0.17 sec)
+]
+	Translate
+		1 Erenna_richardi,
+		2 Abylopsis_tetragona,
+		3 Physalia_physalis,
+		4 Athorybia_rosacea,
+		5 Lilyopsis_fluoracantha,
+		6 Hydractinia_symbiolongicarpus,
+		7 Frillagalma_vityazi,
+		8 Clytia_hemisphaerica,
+		9 Stephalia_dilata,
+		10 Halistemma_rubrum,
+		11 Bargmannia_amoena,
+		12 Marrus_claudanielis,
+		13 Diphyes_dispar,
+		14 Apolemia_rubriversa,
+		15 Lychnagalma_utricularia,
+		16 Prayidae_D27SS7,
+		17 Prayidae_D27D2,
+		18 Nematostella_vectensis,
+		19 Hydra_magnipapillata,
+		20 Resomia_ornicephala,
+		21 Rudjakovia_sp,
+		22 Ectopleura_larynx,
+		23 Apolemia_sp,
+		24 Kephyes_ovata,
+		25 Chuniphyes_multidentata,
+		26 Nanomia_bijuga,
+		27 Physophora_gilmeri,
+		28 Bargmannia_lata,
+		29 Podocoryna_carnea,
+		30 Bargmannia_elongata,
+		31 Aiptasia_pallida,
+		32 Alatina_alata,
+		33 Physonect_sp,
+		34 Apolemia_lanosa,
+		35 Chelophyes_appendiculata,
+		36 Rhizophysa_filiformis,
+		37 Cordagalma_sp,
+		38 Hippopodius_hippopus,
+		39 Thermopalia_sp,
+		40 Agalma_elegans,
+		41 Forskalia_asymmetrica
+		;
+tree 'PAUP_1' = [&U] (((((((((1:0.055625,(12:0.034598,33:0.026058):0.009571):0.011729,(9:0.004556,39:-0.000259):0.083536):0.018012,((((((4:0.030720,40:0.027830):0.034767,10:0.051335):0.023963,26:0.117453):0.012611,(15:0.055804,27:0.070765):0.030532):0.009130,(37:0.119614,41:0.096563):0.002826):0.001852,(7:0.062983,20:0.049776):0.029615):0.014603):0.015100,(((11:0.017183,30:0.022613):0.019192,28:0.035508):0.032586,21:0.099295):0.063231):0.007643,(((3:0.099277,36:0.109765):0.062303,((6:0.107802,29:0.129815):0.113197,((8:0.231140,((18:0.154056,31:0.166582):0.144349,32:0.298836):0.085540):0.001430,(19:0.216346,22:0.235430):0.052796):0.020381):0.069077):0.017984,((14:0.034710,34:0.033066):0.013165,23:0.027556):0.089361):0.012039):0.035492,5:0.175302):0.008759,(((16:0.064443,17:0.056462):0.015926,38:0.099743):0.002124,(24:0.038637,25:0.038828):0.055439):0.015680):0.098547,35:0.064416):0.022633,2:0.041228,13:0.046375);
+End;

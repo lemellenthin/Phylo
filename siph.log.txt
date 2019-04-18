@@ -1,0 +1,82 @@
+   Logging screen output to file "siph.log.txt"
+
+MrBayes > 
+   Executing file "align.nex"
+   UNIX line termination
+   Longest line length = 395730
+   The longest line of the file align.nex
+   contains at least one line with 395780 characters.
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 41 taxa and 395699 characters
+      Data is Protein
+      Gaps coded as -
+      Missing data coded as ?
+      Taxon  1 -> Erenna_richardi
+      Error while parsing a string. Token "DIQLSEVIPLMEEIHRGNGK...[followed by at least 99970  more charectors]" is too long.
+      Maximum allowed lenght of a token is 99990
+      There was an error on at least one processor
+      The error occurred when reading char. 100002 on line 11
+         in the file 'align.nex'
+   Error in command "Execute"
+
+MrBayes > 
+   Executing file "alignment.fa"
+   UNIX line termination
+   Longest line length = 395700
+   The longest line of the file alignment.fa
+   contains at least one line with 395750 characters.
+   Parsing file
+   Could not find command ">"
+   There was an error on at least one processor
+   The error occurred when reading char. 1 on line 1
+      in the file 'alignment.fa'
+   Error in command "Execute"
+
+MrBayes > 
+   Could not find command "alignment.phy"
+
+MrBayes > 
+   Executing file "alignment.phy"
+   UNIX line termination
+   Longest line length = 395731
+   The longest line of the file alignment.phy
+   contains at least one line with 395781 characters.
+   Parsing file
+   Could not find command "41"
+   There was an error on at least one processor
+   The error occurred when reading char. 4 on line 1
+      in the file 'alignment.phy'
+   Error in command "Execute"
+
+MrBayes > 
+   Executing file "align.nxs"
+   UNIX line termination
+   Longest line length = 395730
+   The longest line of the file align.nxs
+   contains at least one line with 395780 characters.
+   Parsing file
+   Expecting NEXUS formatted file
+   Deleting previously defined characters
+   Deleting previously defined taxa
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 41 taxa and 395699 characters
+      Data is Protein
+      Gaps coded as -
+      Missing data coded as ?
+      Taxon  1 -> Erenna_richardi
+      Error while parsing a string. Token "DIQLSEVIPLMEEIHRGNGK...[followed by at least 99970  more charectors]" is too long.
+      Maximum allowed lenght of a token is 99990
+      There was an error on at least one processor
+      The error occurred when reading char. 100002 on line 11
+         in the file 'align.nxs'
+   Error in command "Execute"
+
+MrBayes > 
+   Deleting previously defined characters
+   Deleting previously defined taxa

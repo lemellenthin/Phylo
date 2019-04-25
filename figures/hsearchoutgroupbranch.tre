@@ -1,0 +1,79 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Wed Apr 10 00:34:36 2019]
+[!
+>Data file = align.nxs
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 395699 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        116669 characters are constant (proportion = 0.294843)
+>        67579 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 211451
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 100
+>    Starting seed = generated automatically
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Heuristic search completed
+>  Total number of rearrangements tried = 1358492
+>  Score of best tree(s) found = 1385039
+>  Number of trees retained = 1
+>  Time used = 00:09:53 (CPU time = 00:08:55.1)
+]
+	Translate
+		1 Erenna_richardi,
+		2 Abylopsis_tetragona,
+		3 Physalia_physalis,
+		4 Athorybia_rosacea,
+		5 Lilyopsis_fluoracantha,
+		6 Hydractinia_symbiolongicarpus,
+		7 Frillagalma_vityazi,
+		8 Clytia_hemisphaerica,
+		9 Stephalia_dilata,
+		10 Halistemma_rubrum,
+		11 Bargmannia_amoena,
+		12 Marrus_claudanielis,
+		13 Diphyes_dispar,
+		14 Apolemia_rubriversa,
+		15 Lychnagalma_utricularia,
+		16 Prayidae_D27SS7,
+		17 Prayidae_D27D2,
+		18 Nematostella_vectensis,
+		19 Hydra_magnipapillata,
+		20 Resomia_ornicephala,
+		21 Rudjakovia_sp,
+		22 Ectopleura_larynx,
+		23 Apolemia_sp,
+		24 Kephyes_ovata,
+		25 Chuniphyes_multidentata,
+		26 Nanomia_bijuga,
+		27 Physophora_gilmeri,
+		28 Bargmannia_lata,
+		29 Podocoryna_carnea,
+		30 Bargmannia_elongata,
+		31 Aiptasia_pallida,
+		32 Alatina_alata,
+		33 Physonect_sp,
+		34 Apolemia_lanosa,
+		35 Chelophyes_appendiculata,
+		36 Rhizophysa_filiformis,
+		37 Cordagalma_sp,
+		38 Hippopodius_hippopus,
+		39 Thermopalia_sp,
+		40 Agalma_elegans,
+		41 Forskalia_asymmetrica
+		;
+tree 'PAUP_1' = [&U] ((((((((1:11502,(12:2916,33:3076):9789):7731,(9:540,39:209):27638):9635,((((((4:10222,40:8103):15215,10:14917):8775,26:34827):15990,(15:12786,27:16754):18192):11799,(37:33986,41:23798):15954):12846,(7:17432,20:12409):12562):12696):13222,(((((2:10537,13:11655):12129,35:15940):26023,5:41788):31710,(24:10982,25:11954):14771):17383,((16:17897,17:13982):10054,38:28871):10688):31999):15938,(((11:5425,30:5812):8052,28:8524):12517,21:28838):29133):19311,((14:7464,34:8412):3749,23:6152):29911):24619,((6:25364,29:24286):35086,(8:13068,(((18:10771,31:10612):24041,32:23030):35974,(19:23998,22:24017):25314):9041):43869):49233):29311,3:24473,36:25810);
+End;

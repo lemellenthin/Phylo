@@ -1,0 +1,62 @@
+
+RAxML-NG v. 0.8.0 BETA released on 11.01.2019 by The Exelixis Lab.
+Authors: Alexey Kozlov, Alexandros Stamatakis, Diego Darriba, Tomas Flouri, Benoit Morel.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+WARNING: This is a BETA release, please use at your own risk!
+
+RAxML-NG was called at 10-Apr-2019 19:20:01 as follows:
+
+raxml-ng --msa alignment.fa --model WAG+G --prefix T3 --threads 2
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (10) + parsimony (10)
+  random seed: 1554942001
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX
+  parallelization: PTHREADS (2 threads), thread pinning: OFF
+
+[00:00:00] Reading alignment from file: alignment.fa
+[00:00:00] Loaded alignment with 41 taxa and 395699 sites
+
+Alignment comprises 1 partitions and 340036 patterns
+
+Partition 0: noname
+Model: WAG+G4m
+Alignment sites / patterns: 395699 / 340036
+Gaps: 31.46 %
+Invariant sites: 15.66 %
+
+
+NOTE: Binary MSA file created: T3.raxml.rba
+
+[00:00:00] Generating 10 random starting tree(s) with 41 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 41 taxa
+[00:00:29] Data distribution: max. partitions/sites/weight per thread: 1 / 170018 / 13601440
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:00:31 -11239700.064436] Initial branch length optimization
+[00:05:16 -10101022.403214] Model parameter optimization (eps = 10.000000)
+[00:09:54 -10041285.768766] AUTODETECT spr round 1 (radius: 5)
+[00:26:25 -8462951.695962] AUTODETECT spr round 2 (radius: 10)
+[00:49:32 -8259035.267239] AUTODETECT spr round 3 (radius: 15)
+[01:01:07 -8259034.206107] AUTODETECT spr round 4 (radius: 20)
+[01:04:05 -8259034.192524] SPR radius for FAST iterations: 15 (autodetect)
+[01:04:05 -8259034.192524] Model parameter optimization (eps = 3.000000)
+[01:07:01 -8255050.384599] FAST spr round 1 (radius: 15)
+[02:21:56 -8195329.147100] FAST spr round 2 (radius: 15)
+[03:10:13 -8193368.160448] FAST spr round 3 (radius: 15)
+[03:56:15 -8193040.024042] FAST spr round 4 (radius: 15)
+[04:41:07 -8192674.911395] FAST spr round 5 (radius: 15)
+[05:25:33 -8192509.324073] FAST spr round 6 (radius: 15)
+[06:18:40 -8192509.323861] Model parameter optimization (eps = 1.000000)
+[06:19:52 -8192490.823014] SLOW spr round 1 (radius: 5)
